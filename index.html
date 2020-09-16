@@ -5,6 +5,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="emojiColors.js"></script>
 <script src="poisson-disc-sampler.js"></script>
+<title>حوس بي اتش ايموجي</title>
 <h1>حوس بي اتش ايموجي</h1>
 <p>قم بتحميل صورة لتحويلها إلى رسم بالايموجي. تحلى بالصبر ، قد تستغرق المعالجة لحظات.</p>
 <input type="file">
@@ -94,7 +95,7 @@ EmojiMosaic.prototype.imageLoaded = function() {
 	this.extractionCanvasContext.drawImage(this.img, 0, 0, this.extractionCanvas.width, this.extractionCanvas.height );
 
 	var saveButton = document.createElement( 'a' );
-	saveButton.innerHTML = 'Save as image';
+	saveButton.innerHTML = 'احفظها كصوره';
 	document.body.appendChild( saveButton );
 	var self = this;
 
